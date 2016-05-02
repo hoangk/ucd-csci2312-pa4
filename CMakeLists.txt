@@ -17,5 +17,5 @@ set(SOURCE_FILES main.cpp
         Exceptions.cpp Exceptions.h
         Strategy.cpp Strategy.h
         DefaultAgentStrategy.cpp DefaultAgentStrategy.h
-        Gaming.cpp Gaming.h AggressiveAgentStrategy.cpp AggressiveAgentStrategy.h)
+        Gaming.h AggressiveAgentStrategy.cpp AggressiveAgentStrategy.h)
 add_executable(ucd-csci2312-pa4 ${SOURCE_FILES})
